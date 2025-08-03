@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: pink;
+    height: 40px;
+    width: 500px;
+   
+}
+#NAME{
+    font-size: 30PX;
+    text-align: justify;
+    background-color: pink;
+    width: 500PX;
+}
+#INTEREST{
+    font-size: 30PX;
+    text-align: justify;
+    background-color: pink;
+    width: 500PX;
+}
+H2{
+    color: rgb(46, 161, 206);
+    font-weight: bold;
+}
+LI{
+    font-size: 20PX;
+}
+ blockquote{
+    font-size: 20PX;
+    font-style: italic;
+    background-color: #FFF3CD;
+    border-left: 5PX SOLID #FFC107;
+    padding: 10PX;
+    margin-top: 20PX; 
+    width: 600px;
+}
+#footer-text{
+    background-color: #333;
+    color: white;
+    text-align: centre;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 400px;
+    font-size: 20px;
+}
+
+BODY{
+    background-color: rgb(169, 169, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20PX;
+}
