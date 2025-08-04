@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: #2c3e50;
+    padding: 30px;
+}
+.destination{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background-size: cover;
+    background-position: center;
+}
+#dest1{
+    background-image: url(beach.jpg.jpg);
+}
+#dest2{
+    background-image: url(mountain.jpg.jpg);
+}
+#dest3{
+    background-image: url(city.jpg.jpg);
+}
+.badge{
+    background: pink;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.details{
+    font-size: 16px;
+    margin: 0;
+    background: skyblue;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
