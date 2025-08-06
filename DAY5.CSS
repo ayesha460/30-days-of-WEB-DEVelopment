@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+}
+
+header {
+  background-color: #f7f1e8;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #fef9f4;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+
+.portfolio-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.portfolio-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  margin: 10px 0 5px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  width: 48%;
+  padding: 10px;
+  margin: 10px 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  width: 98%;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f1e8;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #007bff;
+  text-decoration: none;
+}
